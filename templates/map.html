@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='v6/ol.css') }}" type="text/css">
+    <style>
+     .map_s {
+      padding: 0;
+      margin: 0;
+      height: 100vh;;
+      width: 100%;
+    }
+    </style>
+  
+    <title>OpenLayers example</title>
+  </head>
+  <body>
+    <div id="map" class="map_s"></div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='v6/ol.js') }}"></script>
+  </body>
+</html>
